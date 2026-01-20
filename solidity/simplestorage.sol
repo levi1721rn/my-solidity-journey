@@ -15,16 +15,35 @@ contract SimpleStorage{
 
 
     */
-     uint256 public favouriteNumber;  //0
+     uint256 public myFavouriteNumber;  //0
 
-     function store(uint256 newFavouriteNumber) public {
-        favouriteNumber = newFavouriteNumber;
+      function store(uint256 newFavouriteNumber) public {
+        myFavouriteNumber = newFavouriteNumber;
      }
      
      // view and pure are functions we can call without having to send a transaction
      //example for view function
 
      function retreive() public view returns(uint256){
-        return favouriteNumber;
+        return myFavouriteNumber;
+     }
+
+     struct Person {
+      uint256 favouriteNumber;
+      string name;
+     }
+      
+     //Dynamic Array 
+     Person[] public listOfPerson;
+
+   //   Person public pat = Person(10 , "Pat");
+
+   //   Person public ms = Person({favouriteNumber : 7 , name : "MS"});
+
+     mapping(string => uint256) public nameToFavouriteNumber;
+
+     function addPerson(string memory _name , uint256 _favouriteNumber) public {
+      listOfPerson.push(Person(_favouriteNumber , _name));
+      nameToFavouriteNumber[_name] = _favouriteNumber;
      }
 }
