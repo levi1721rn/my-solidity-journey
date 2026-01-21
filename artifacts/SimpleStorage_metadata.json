@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -119,25 +119,25 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity/simplestorage.sol": "SimpleStorage"
+			"Contracts/simpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"solidity/simplestorage.sol": {
-			"keccak256": "0x89c20e0888ce873222e33f79eca61250a8762d066fe61f451aa83b368f46519a",
+		"Contracts/simpleStorage.sol": {
+			"keccak256": "0x0b53af25b2c26da9e7570f66da04725f89ace9a4b8d376f38462710225bede89",
 			"urls": [
-				"bzz-raw://7e622a51f30c933a6d5697d6721d9c87c7591dacf7f637ba2ec468bb2d49f9d9",
-				"dweb:/ipfs/QmTouzw61Acwam98Qu5Fo7pyCnutKEH2oJkNfv662LxqsM"
+				"bzz-raw://e0dbfa5713dacce4738b6a83001ac05b82df06bfb12244c2779a1f20dac016e3",
+				"dweb:/ipfs/Qmf75xzaeA6cqXjErWek7Xz83ArC2Xt35rQ2omYHGGKA31"
 			]
 		}
 	},
