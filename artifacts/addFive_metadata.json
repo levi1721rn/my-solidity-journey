@@ -96,7 +96,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newFavouriteNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -119,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/SimpleStorage.sol": "SimpleStorage"
+			"Contracts/addFiveStorage.sol": "addFive"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -138,6 +138,13 @@
 			"urls": [
 				"bzz-raw://996323b8c4768868b5677803e777c991f329071bcee698a28db1c52c3b9bb70f",
 				"dweb:/ipfs/QmTjT6wcunotyQokFGKmb9xdmqf2A6Mxj8Re9pSVnsRdJa"
+			]
+		},
+		"Contracts/addFiveStorage.sol": {
+			"keccak256": "0x6a5bf542815bee527e69b127a6f85e635750ecadc2af723e04e19b3f95e6bb96",
+			"urls": [
+				"bzz-raw://89efd66e3394ffc1d468d6529ca902d8fc8314caf16a9c7e133e212b4113b1d9",
+				"dweb:/ipfs/QmS53d175jBKX8h4r6bVAF8iJBwx1REmPoGR8pzcY1i8ks"
 			]
 		}
 	},

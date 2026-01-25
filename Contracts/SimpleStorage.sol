@@ -17,14 +17,14 @@ contract SimpleStorage{
     */
      uint256 public myFavouriteNumber;  //0
 
-      function store(uint256 newFavouriteNumber) public {
+      function store(uint256 newFavouriteNumber) public virtual{
         myFavouriteNumber = newFavouriteNumber;
      }
      
      // view and pure are functions we can call without having to send a transaction
      //example for view function
 
-     function retreive() public view returns(uint256){
+     function retrieve() public view returns(uint256){
         return myFavouriteNumber;
      }
 
